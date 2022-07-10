@@ -9,11 +9,10 @@ body{
     display: inline-flex;
    align-items: center;
    margin-left: 3rem;
-    
-   background: #36a494;
-   background: -webkit-linear-gradient(to right, #36a494, #71bfab);
-   background: linear-gradient(to right, #36a494, #71bfab);
-   font-family: 'Poppins', sans-serif;
+    background: #209785;
+      background: -webkit-linear-gradient(to right, #137667, #289479);
+      background: linear-gradient(to right, #36a494, #138367);
+      font-family: 'Poppins', sans-serif;
 
 }
 #submit-button{
@@ -23,18 +22,18 @@ body{
 }
 #container{ 
     display: block;
-    width: 55%;
+    width: 55vh;
     background: black;
     color: white;
     font-size: small;
-    border: 2% solid black;
-    margin-right: 8%;
+    border: 2px solid black;
+    margin-right: 8rem;
     
 }
     
 
 .pad{
-        margin:1%;}
+        margin:1rem;}
     
 div input{
     background-color: black;
@@ -44,8 +43,11 @@ div input{
     width: 45vh;
 }
 #submit-button{
-    margin: 4%;
-    width: 6rem;
+    margin: 4px;
+    width: 7rem;
+    background: #4ed4b4;
+      border-color: #4ed4b4;
+      color: #fff;
 }
 .checkbox{
     display: inline-flex;
@@ -54,11 +56,11 @@ div input{
 }
 #check-box{
     margin-left:0px ;
-    width: 13%;
+    width: 13px;
 }
 .title{
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 2%;
-    margin-top: 1%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
