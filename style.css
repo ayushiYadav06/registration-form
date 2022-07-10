@@ -1,0 +1,64 @@
+*{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    display: inline-flex;
+   align-items: center;
+   margin-left: 3rem;
+    
+   background: #36a494;
+   background: -webkit-linear-gradient(to right, #36a494, #71bfab);
+   background: linear-gradient(to right, #36a494, #71bfab);
+   font-family: 'Poppins', sans-serif;
+
+}
+#submit-button{
+    background-color: cyan;
+    color: white;
+    text-align: center;
+}
+#container{ 
+    display: block;
+    width: 55%;
+    background: black;
+    color: white;
+    font-size: small;
+    border: 2% solid black;
+    margin-right: 8%;
+    
+}
+    
+
+.pad{
+        margin:1%;}
+    
+div input{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-bottom: 1px solid white;
+    width: 45vh;
+}
+#submit-button{
+    margin: 4%;
+    width: 6rem;
+}
+.checkbox{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 0px;
+}
+#check-box{
+    margin-left:0px ;
+    width: 13%;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}

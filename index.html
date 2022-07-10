@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="container">
+        <div id="pad">
+            <div id="error"></div>
+            <div class="title-styling">
+                <span class="title">SignUp</span>
+            </div>
+            <form id="form" acion="/">
+                <div class="user-details">
+                    <div class="input-box">
+                        <label for="Name">NAME</label><br>
+
+                        <input type="text" name="Name" id="Name" placeholder="fullName" minlength="3" maxlength="8"
+                            required><br>
+                        <span id="getName"> </span>
+                    </div>
+                    <div class="input-box">
+                        <label for="username">USERNAME</label><br>
+                        <input type="text" name="username" id="username" placeholder="UserName" required><br>
+                        <span id="getUsername"> </span>
+                    </div>
+                    <form action="" class="input-box">
+
+                        <label for="email">EMAIL</label><br>
+                        <input type="email" id="email" pattern="[^ @]@[^ @]" placeholder="Enter your email">
+
+                        <span id="getEmail"> </span>
+                    </form>
+                    <div class="input-box">
+                        <label for="password">PASSWORD</label><br>
+                        <input type="password" name="password" id="password" placeholder="Axf@12" required><br>
+                        <span id="getPassword"> </span>
+                    </div>
+                    <div class="input-box">
+                        <laber for="confirmpassword">CONFIRM PASSWORD</label><br>
+                            <input type="password" name="confirmpassword" id="confirmpassword"
+                                placeholder="confirmpassword" required><br>
+                            <span id="getConfirmpassword"> </span>
+                    </div>
+                </div>
+            </form>
+            <div class="check-box">
+            <pre>
+                <input type="checkbox" value="remember me" id="check-box" onclick="enable()" required>  <span>Remember Me</span>
+            </pre>
+            </div>
+            <div>
+                <button disabled="disabled" onclick="details()" id="submit-button">CREATE ACCOUNT</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script defer src="script.js"> </script>
+</body>
+
+</html>
